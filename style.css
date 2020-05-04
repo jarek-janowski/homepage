@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     background: #fefefe;
     text-align: center;
     font-family: arial;
@@ -11,9 +12,7 @@ h2 {
     color: #A37C40;
 }
 
-.name {
-    color: #07090F;
-}
+
 
 h3 {
     color: #98473E;
