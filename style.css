@@ -12,9 +12,27 @@ body {
 main {
 
     width: 1000px;
-    margin: 100px auto 0;
+    margin: 90px auto 0;
     font-size: 22px;
 
+}
+
+.name {
+    color: #07090F;
+}
+
+.about-me {
+    color: #98473E;
+}
+
+.about-me__img {
+    margin: 10px 0;
+}
+
+.about-me_description {
+    background: #b69c75;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .navigation {
@@ -60,20 +78,6 @@ main {
     color: #A37C40;
 }
 
-
-
-h2 {
-
-    color: #98473E;
-}
-
-
-
-
-
-
-
-
 .footer {
 
     background: black;
@@ -82,5 +86,5 @@ h2 {
 }
 
 .footer__description {
-    color: white;
+    color: #D6C3C9;
 }
