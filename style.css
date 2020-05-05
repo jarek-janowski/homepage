@@ -1,19 +1,21 @@
 body {
-    box-sizing: border-box;
+
     background: #fefefe;
     text-align: center;
-    font-family: arial;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-
     background: #D6C3C9;
 
 }
 
 main {
-
+    box-sizing: border-box;
     width: 1000px;
-    margin: 90px auto 0;
+    margin: 90px auto 20px;
     font-size: 22px;
+    background: #d3c5ca;
+    border-radius: 10px;
+    padding: 10px 60px;
 
 }
 
@@ -27,6 +29,7 @@ main {
 
 .about-me__img {
     margin: 10px 0;
+    border-radius: 10px;
 }
 
 .about-me_description {
@@ -76,6 +79,25 @@ main {
 
 .correct-html__tittle {
     color: #A37C40;
+}
+
+.navigator {
+    position: fixed;
+    bottom: 10px;
+    right: 442px;
+    width: 40px;
+    height: 40px;
+    background: #98473E;
+    border-radius: 50%;
+}
+
+.fa-chevron-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
 }
 
 .footer {

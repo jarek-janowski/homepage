@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav class="navigation">
             <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
             <a class="navigation__link" href="HTML.html">HTML</a>
@@ -19,7 +22,7 @@
     </header>
     <main>
         <header>
-            <h1 class="main-heading main-heading--js">Jarek Janowski - Strona główna</h1>
+            <h1 id="name" class="main-heading main-heading--js">Jarek Janowski - Strona główna</h1>
         </header>
         <section>
             <h2 class="about-me">Kim jestem?</h2>
@@ -68,6 +71,10 @@
         </section>
 
     </main>
+
+    <a class="navigator" href="#header"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+
     <footer class="footer">
         <p class="footer__description footer__decription--js">WTF co ten frontend, all rights reserved</p>
 
