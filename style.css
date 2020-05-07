@@ -29,6 +29,7 @@ main {
     left: 0;
     background-color: #1D3354;
     padding: 10px 0;
+    z-index: 100;
 }
 
 .navigation__link {
@@ -64,6 +65,7 @@ main {
 }
 
 .about-me__img {
+
     float: left;
     margin: 15px;
     border-radius: 10px;
@@ -97,7 +99,10 @@ main {
 }
 
 .correct-html__tittle {
+    position: sticky;
+    top: 46px;
     color: #9ED8DB;
+    background: #1D3354;
 }
 
 .navigator {
