@@ -13,7 +13,7 @@ body {
 main {
     box-sizing: border-box;
     width: 1000px;
-    margin: 90px auto 20px;
+    margin: 90px auto 40px;
     font-size: 22px;
     background: #1D3354;
     border-radius: 10px;
@@ -54,19 +54,31 @@ main {
 }
 
 .about-me {
+    background: #467599;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.about-me__heading {
     color: #E9FFF9;
 }
 
 .about-me__img {
-    margin: 10px 0;
+    float: left;
+    margin: 15px;
     border-radius: 10px;
+    width: 220px;
+    height: 220px;
+
+
 }
 
 .about-me_description {
-    background: #467599;
-    border-radius: 10px;
+
+
     padding: 10px;
     color: #E9FFF9;
+    text-align: justify;
 }
 
 .wtf {
