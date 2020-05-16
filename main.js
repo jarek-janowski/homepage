@@ -16,15 +16,18 @@ const age = ('24');
 
 
 
-function hello(firstName, age) {
+// function oldHello(firstName, age) {
+//     console.log((`Cześć! Jestem ${firstName}, mam ${age} lata i witam Cie na mojej stronie :)`));
+//     // return firstName, age;
+// }
+
+// oldHello(firstName, age);
+
+const hello = (firstName, age) => {
     console.log((`Cześć! Jestem ${firstName}, mam ${age} lata i witam Cie na mojej stronie :)`));
-    // return firstName, age;
 }
 
 hello(firstName, age);
-hello('Konrad', 32);
-
-
 //-------------------------------<>------------------------------------------------
 
 
