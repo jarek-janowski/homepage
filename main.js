@@ -16,18 +16,21 @@ const age = ('24');
 
 
 
-// function oldHello(firstName, age) {
-//     console.log((`Cześć! Jestem ${firstName}, mam ${age} lata i witam Cie na mojej stronie :)`));
-//     // return firstName, age;
-// }
+function oldHello(firstName, age) {
+    console.log((`Cześć! Jestem ${firstName}, mam ${age} lata i witam Cie na mojej stronie :)`));
+    // return firstName, age;
+}
 
-// oldHello(firstName, age);
+oldHello(firstName, age);
+
+// --------- Fat Arrow -----------
 
 const hello = (firstName, age) => {
     console.log((`Cześć! Jestem ${firstName}, mam ${age} lata i witam Cie na mojej stronie :)`));
 }
 
 hello(firstName, age);
+
 //-------------------------------<>------------------------------------------------
 
 
@@ -44,3 +47,18 @@ function helloAlert(firstName, age) {
 }
 
 helloAlert(firstName, age);
+
+
+const jarek = {
+    age: 24,
+    girls: (amountOfGirls) => {
+        console.log(`Jarek had ${amountOfGirls} girls`)
+    },
+    height: 181,
+    isHeHandsome: true,
+    job: 'Webdeveloper wanna be',
+    name: 'Jarek',
+}
+
+console.log(jarek.job);
+jarek.girls(20);
