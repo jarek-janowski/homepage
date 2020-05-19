@@ -161,3 +161,30 @@ body {
 .footer__description {
     color: #E9FFF9;
 }
+
+@media screen and (max-width: 768px) {
+    .main {
+        display: grid;
+        grid-template-areas: "main__header main__header main__header"
+            "about-me about-me about-me"
+            "wtf wtf wtf"
+            "aside aside aside";
+    }
+
+    .navigator {
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background: #1D3354;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .about-me__img {
+        float: none;
+        margin: 8px;
+    }
+}
