@@ -1,7 +1,7 @@
 html {}
 
 body {
-
+    display: grid;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -12,10 +12,12 @@ body {
 
 .main {
     display: grid;
-    grid-template-areas: "main__header main__header"
-        "about-me about-me"
-        "wtf aside";
-    grid-template-columns: 1fr 200px;
+    grid-template-areas: "main__header main__header main__header"
+        "about-me about-me about-me"
+        "wtf . aside";
+    grid-template-columns: 1fr 50px 200px;
+    column-gap: 20px;
+    row-gap: 20px;
     box-sizing: border-box;
     max-width: 1000px;
     margin: 90px auto 40px;
@@ -67,6 +69,7 @@ body {
 
 .about-me {
     grid-area: about-me;
+    grid-column-end: 4;
     background: #467599;
     overflow: hidden;
     border-radius: 10px;
@@ -123,7 +126,7 @@ body {
 
 .aside {
     grid-area: aside;
-    margin: 20px 0 20px 20px;
+    margin: 20px 0;
     background: #467599;
     border-radius: 10px;
 
