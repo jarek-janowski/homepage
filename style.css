@@ -1,19 +1,21 @@
-body {
+html {}
 
+body {
 
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-
     color: #E9FFF9;
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #71119C 100%);
-
-
-
 }
 
 .main {
+    display: grid;
+    grid-template-areas: "main__header main__header"
+        "about-me about-me"
+        "wtf aside";
+    grid-template-columns: 1fr 200px;
     box-sizing: border-box;
     max-width: 1000px;
     margin: 90px auto 40px;
@@ -55,11 +57,16 @@ body {
     margin-right: 100px;
 }
 
+.main__header {
+    grid-area: main__header;
+}
+
 .main-heading {
     color: #B8B3E9;
 }
 
 .about-me {
+    grid-area: about-me;
     background: #467599;
     overflow: hidden;
     border-radius: 10px;
@@ -88,6 +95,10 @@ body {
     text-align: justify;
 }
 
+.wtf {
+    grid-area: wtf;
+}
+
 .wtf__heading {
     color: #E9FFF9;
 }
@@ -108,6 +119,14 @@ body {
     top: 44px;
     color: #9ED8DB;
     background: #1D3354;
+}
+
+.aside {
+    grid-area: aside;
+    margin: 20px 0 20px 20px;
+    background: #467599;
+    border-radius: 10px;
+
 }
 
 .navigator {

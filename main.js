@@ -46,7 +46,7 @@ function helloAlert(firstName, age) {
     // return firstName, age;
 }
 
-helloAlert(firstName, age);
+// helloAlert(firstName, age);
 
 
 const jarek = {
