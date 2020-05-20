@@ -118,8 +118,7 @@ body {
 }
 
 .correct-html__tittle {
-    position: sticky;
-    top: 44px;
+
     color: #9ED8DB;
     background: #1D3354;
 }
@@ -169,16 +168,66 @@ body {
             "about-me about-me about-me"
             "wtf wtf wtf"
             "aside aside aside";
+        margin: 60px auto 40px;
     }
 
     .navigator {
         right: 10px;
+    }
+
+    .navigation {
+        display: none;
+        background-color: #467599;
+        padding: 10px 0;
+    }
+
+    .navigation__link {
+        display: block;
+        margin: 0 0 5px 10px;
+        text-align: start;
+    }
+
+    .navigation__link--homepage {
+        border: none;
+        margin-right: 0;
+    }
+
+    .navigation--open {
+        display: block;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #467599;
+        height: 60px;
+        width: 100%;
+
+    }
+
+    .hamburger {
+        position: absolute;
+        top: 12px;
+        right: 16px;
+        z-index: 101;
+        border: 2px solid #1D3354;
+        color: #1D3354;
+        font-size: 26px;
+        background: #E9FFF9;
     }
 }
 
 @media screen and (max-width: 1000px) {
     body {
         background: #1D3354;
+    }
+
+    .footer {
+
+        background: #467599;
+        padding: 5px 0;
+
     }
 }
 
