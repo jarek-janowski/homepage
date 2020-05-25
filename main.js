@@ -63,6 +63,9 @@ const jarek = {
 console.log(jarek.job);
 jarek.girls(20);
 
+
+
+
 const hamburger = document.querySelector('.hamburger--js');
 
 hamburger.addEventListener('click', () => {
